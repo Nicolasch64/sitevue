@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const drawingRoutes = require("./routes/drawingRoutes");
+const paintingRoutes = require("./routes/paintingRoutes");
 
 const app = express();
 
@@ -17,6 +18,7 @@ mongoose
 	.catch((error) => console.error("MongoDB connection error:", error));
 
 app.use("/api", drawingRoutes);
+app.use("/api", paintingRoutes);
 
 app.listen(5000, () => {
 	console.log("Server running on http://localhost:5000");

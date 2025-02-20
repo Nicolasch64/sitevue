@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { useDrawingsStore } from '@/stores/drawings'
+import { usepaintingStore } from '@/stores/paintings'
 
 export default {
   data() {
@@ -32,7 +32,7 @@ export default {
         year: this.year,
       }
 
-      const store = useDrawingsStore()
+      const store = usepaintingStore()
       await store.addDrawing(newDrawing)
     },
   },

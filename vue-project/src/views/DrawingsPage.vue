@@ -49,6 +49,119 @@
         </figcaption>
       </figure>
     </div>
+    <div class="range2">
+      <figure class="ali">
+        <a href="https://res.cloudinary.com/dwqpv9ozq/image/upload/v1734965716/alien3_gmyasl.jpg"
+          ><img
+            src="https://res.cloudinary.com/dwqpv9ozq/image/upload/v1734965716/alien3_gmyasl.jpg"
+            alt="dessin numérique de alien2"
+            class="alien3"
+        /></a>
+
+        <figcaption class="texte3">
+          <p>"Fiorina Fury 161" digital drawing 2023</p>
+        </figcaption>
+      </figure>
+
+      <figure class="ram">
+        <a href="https://res.cloudinary.com/dwqpv9ozq/image/upload/v1734965948/natas_m2vpr0.jpg"
+          ><img
+            src="https://res.cloudinary.com/dwqpv9ozq/image/upload/v1734965948/natas_m2vpr0.jpg"
+            alt=" dessin numérique d'une rampe de skate"
+            class="backyard"
+        /></a>
+
+        <figcaption class="texte4">
+          <p>"Backyard Ramp" digital drawing 2023</p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="range3">
+      <figure class="bur">
+        <a href="https://res.cloudinary.com/dwqpv9ozq/image/upload/v1734965925/burden_kcnsou.jpg"
+          ><img
+            src="https://res.cloudinary.com/dwqpv9ozq/image/upload/v1734965925/burden_kcnsou.jpg"
+            alt="dessin a l encre de chris burden"
+            class="burden"
+        /></a>
+
+        <figcaption class="texte5">
+          <p>"Chris Burden"ink on paper (21x29cm)2023</p>
+        </figcaption>
+      </figure>
+
+      <figure class="cab">
+        <a href="https://res.cloudinary.com/dwqpv9ozq/image/upload/v1734965936/freddy_cu98bu.jpg">
+          <img
+            src="https://res.cloudinary.com/dwqpv9ozq/image/upload/v1734965936/freddy_cu98bu.jpg"
+            alt="dessin sur carton de freddy kruger assis dans un parc"
+            class="cabane"
+        /></a>
+
+        <figcaption class="texte6">
+          <p>"Freddy kruger in the park" acrylic on cardboard (50x32cm) 2023</p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="range4">
+      <figure class="cad">
+        <a href="https://res.cloudinary.com/dwqpv9ozq/image/upload/v1734965953/pointb_dxquip.jpg"
+          ><img
+            src="https://res.cloudinary.com/dwqpv9ozq/image/upload/v1734965953/pointb_dxquip.jpg"
+            alt="dessin numérique du film point break"
+            class="cadillac"
+        /></a>
+
+        <figcaption class="texte7">
+          <p>"Point Break" digital drawing 2023</p>
+        </figcaption>
+      </figure>
+
+      <figure class="can">
+        <a
+          href="https://res.cloudinary.com/dwqpv9ozq/image/upload/v1734965940/jacob_lake_2_jwwhfw.jpg"
+          ><img
+            src="https://res.cloudinary.com/dwqpv9ozq/image/upload/v1734965940/jacob_lake_2_jwwhfw.jpg "
+            alt="dessin d'un homme en canoe"
+            class="canoe"
+        /></a>
+
+        <figcaption class="texte8">
+          <p>"The Monkey Wrench Gang" ink on paper(21x29xm) 2023</p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="range5">
+      <figure class="rep">
+        <a
+          href="https://res.cloudinary.com/dwqpv9ozq/image/upload/v1734965956/reptinight_on5ivy.png"
+          ><img
+            src="https://res.cloudinary.com/dwqpv9ozq/image/upload/v1734965956/reptinight_on5ivy.png"
+            alt="dessin numérique d un policier reptilien"
+            class="babylon"
+        /></a>
+
+        <figcaption class="texte9">
+          <p>"Reptilian investigation " Digital drawing 2023</p>
+        </figcaption>
+      </figure>
+
+      <figure class="day">
+        <a href="https://res.cloudinary.com/dwqpv9ozq/image/upload/v1734965929/dayton2_yd7hc9.jpg"
+          ><img
+            src="https://res.cloudinary.com/dwqpv9ozq/image/upload/v1734965929/dayton2_yd7hc9.jpg"
+            alt="dessin numérique de la plage de dayton"
+            class="dayton"
+        /></a>
+
+        <figcaption class="texte10">
+          <p>"Daytona Beach" digital drawing 2023</p>
+        </figcaption>
+      </figure>
+    </div>
   </div>
 
   <Footer />
@@ -88,8 +201,8 @@ onMounted(async () => {
 }
 .range {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   background-color: rgb(255, 255, 255);
   padding: 1em;
   border-bottom: solid rgb(102, 102, 102) 0.25em;
@@ -233,5 +346,220 @@ onMounted(async () => {
   margin-left: 1em;
   margin-right: 1em;
   /* background-color: aquamarine; */
+}
+.cadillac {
+  width: 36em;
+  height: 26em;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.texte7 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  justify-content: end;
+  font-size: 0.75em;
+  margin-left: 75%;
+}
+
+/* .can {
+  background-color: rgb(214, 214, 214);
+  width: 42em;
+  height: 31em;
+} */
+
+.canoe {
+  width: 40em;
+  height: 29em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.texte8 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  justify-content: end;
+  font-size: 0.75em;
+  margin-left: 75%;
+  margin-bottom: 2.5em;
+}
+
+.range5 {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  gap: 0.2em;
+  border-bottom: 5px solid rgba(169, 169, 169, 0.25);
+  padding-bottom: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/* .bab {
+  background-color: rgb(214, 214, 214);
+  width: 44em;
+  height: 32em;
+} */
+
+.babylon {
+  width: 40em;
+  height: 30em;
+  margin-left: 0.2em;
+  margin-top: 1em;
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.texte9 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  justify-content: end;
+  font-size: 0.75em;
+  margin-left: 75%;
+}
+
+/* .day {
+  background-color: rgb(214, 214, 214);
+  width: 44em;
+  height: 30em;
+} */
+
+.dayton {
+  width: 40em;
+  height: 28em;
+  margin-left: 1em;
+  margin-right: 2em;
+  margin-top: 1em;
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.texte10 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  justify-content: end;
+  font-size: 0.75em;
+  margin-left: 75%;
+  margin-bottom: 15%;
+}
+
+.range6 {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  gap: 0.2em;
+  border-bottom: 5px solid rgba(169, 169, 169, 0.25);
+  padding-bottom: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.coven {
+  width: 40em;
+  height: 28em;
+  margin-left: 1em;
+  margin-right: 2em;
+  margin-top: 1em;
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.texte11 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  justify-content: end;
+  font-size: 0.75em;
+  margin-left: 75%;
+  margin-bottom: 15%;
+}
+
+.LA {
+  width: 30em;
+  height: 20em;
+  margin-left: 1em;
+  margin-right: 2em;
+  margin-top: 1em;
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.texte12 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  justify-content: end;
+  font-size: 0.75em;
+  margin-left: 75%;
+  margin-bottom: 15%;
+}
+
+.range7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.2em;
+  border-bottom: 5px solid rgba(169, 169, 169, 0.25);
+  padding-bottom: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+  /* background-color: yellow; */
+}
+
+.jac {
+  width: 32em;
+  height: 20em;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.por {
+  width: 38em;
+  height: 26em;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  border: 2px solid black;
+  padding: 1em;
+}
+.range8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.2em;
+  border-bottom: 5px solid rgba(169, 169, 169, 0.25);
+  padding-bottom: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+  /* background-color: yellow; */
+}
+
+.ramp {
+  width: 40em;
+  height: 30em;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.bit {
+  width: 38em;
+  height: 26em;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  border: 2px solid black;
+  padding: 1em;
 }
 </style>
