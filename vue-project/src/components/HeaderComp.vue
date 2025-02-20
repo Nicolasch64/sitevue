@@ -19,7 +19,7 @@
         </div>
 
         <div class="peintures">
-          <a href="http://127.0.0.1:5500/peintures.html"> <h2>paintings</h2></a>
+          <RouterLink to="/paintings"><h2>paintings</h2></RouterLink>
         </div>
 
         <div class="photos">

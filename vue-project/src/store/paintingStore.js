@@ -11,7 +11,7 @@ export const usePaintingStore = defineStore('paintings', {
 
   actions: {
     async addPainting(painting) {
-      const { title, description, imageFile } = paiting
+      const { title, description, imageFile } = painting
 
       this.loading = true
       this.error = null
@@ -32,7 +32,7 @@ export const usePaintingStore = defineStore('paintings', {
           year: new Date().getFullYear(),
         }
 
-        const response = await axios.post('http://localhost:5000/api/drawings', newPainting)
+        const response = await axios.post('http://localhost:5000/api/paintings', newPainting)
 
         this.paintings.push(response.data)
       } catch (err) {
@@ -51,7 +51,7 @@ export const usePaintingStore = defineStore('paintings', {
         if (response.status === 200) {
           this.paintings = response.data
         } else {
-          throw new Error('Failed to fetch drawings')
+          throw new Error('Failed to fetch paintings')
         }
       } catch (err) {
         this.error = err.response?.data?.message || err.message || 'An error occurred'
@@ -60,14 +60,14 @@ export const usePaintingStore = defineStore('paintings', {
       }
     },
 
-    async fetchPaintingById(drawingId) {
+    async fetchPaintingById(paintingId) {
       this.loading = true
       this.error = null
       try {
         const response = await axios.get(`http://localhost:5000/api/paintings/${paintingId}`)
 
         if (response.status === 200) {
-          this.selectedDrawing = response.data
+          this.selectedpainting = response.data
         } else {
           throw new Error('Failed to fetch drawing by ID')
         }
@@ -80,6 +80,6 @@ export const usePaintingStore = defineStore('paintings', {
   },
 
   getters: {
-    availablepaintings: (state) => state.drawings.length > 0,
+    availablepaintings: (state) => state.paintings.length > 0,
   },
 })

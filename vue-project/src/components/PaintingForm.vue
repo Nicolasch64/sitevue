@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     async handleSubmit() {
-      const newDrawing = {
+      const newPainting = {
         title: this.title,
         description: this.description,
         imageUrl:
@@ -33,7 +33,7 @@ export default {
       }
 
       const store = usepaintingStore()
-      await store.addDrawing(newDrawing)
+      await store.addPainting(newPainting)
     },
   },
 }
