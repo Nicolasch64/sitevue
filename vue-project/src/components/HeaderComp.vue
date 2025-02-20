@@ -32,12 +32,12 @@
       </div>
     </nav>
 
-    <p class="bio">
+    <!-- <p class="bio">
       " I shape my artistic approach around the urban in its strictest definition: what is relative
       to the city..."
     </p>
 
-    <a href="http://127.0.0.1:5500/bio.html"><p class="linkbio">learn more</p></a>
+    <a href="http://127.0.0.1:5500/bio.html"><p class="linkbio">learn more</p></a> -->
   </header>
 </template>
 
